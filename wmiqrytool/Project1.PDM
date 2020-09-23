@@ -1,0 +1,144 @@
+[Root]
+Most Recent Package=WMIQryTool
+
+
+[Package|WMIQryTool|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Inetpub\ftptest\WMI\source_code\WMIQryTool\Package
+
+[Package|WMIQryTool|Configure DAO ISAMs]
+Applicable=No
+
+[Package|WMIQryTool|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|WMIQryTool|Files Found]
+
+[Package|WMIQryTool|Files Released]
+
+[Package|WMIQryTool|Missing Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+C:\WINDOWS\system32\ODBCCP32.dll=
+G:\wmi\source_code\WMIQryTool\projWMI.dll=
+C:\WINNT\system32\msstdfmt.dll=
+C:\WINNT\system32\ODBCCP32.dll=
+
+[Package|WMIQryTool|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINNT\system32\COMDLG32.OCX=
+C:\WINNT\system32\MSCOMCTL.OCX=
+
+[Package|WMIQryTool|Files Added]
+
+[Package|WMIQryTool|Files Removed]
+c:\program files\common files\system\ado\msado25.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|WMIQryTool|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\ODBCCP32.dll=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\msstdfmt.dll=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Inetpub\ftptest\WMI\source_code\WMIQry.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Inetpub\ftptest\WMI\source_code\WMIQryTool\projWMI.dll=Yes
+
+[Package|WMIQryTool|Configure Registry Files]
+Applicable=No
+
+[Package|WMIQryTool|Configure Remote Servers]
+Applicable=No
+
+[Package|WMIQryTool|Install Locations]
+E:\wmi\source_code\WMIQry.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\ODBCCP32.dll=$(WinSysPath)
+C:\WINDOWS\system32\Msbind.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.oca=$(AppPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\wmi\source_code\WMIQry.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINNT\system32\ODBCCP32.dll=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\msstdfmt.dll=$(WinSysPath)
+G:\wmi\source_code\WMIQryTool\projWMI.dll=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Inetpub\ftptest\WMI\source_code\WMIQry.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Inetpub\ftptest\WMI\source_code\WMIQryTool\projWMI.dll=$(WinSysPath)
+
+[Package|WMIQryTool|Configure Shared Files]
+Applicable=Yes
+E:\wmi\source_code\WMIQry.exe=No
+C:\WINDOWS\system32\MSCOMCTL.oca=No
+G:\wmi\source_code\WMIQry.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Inetpub\ftptest\WMI\source_code\WMIQry.exe=No
+
+[Package|WMIQryTool|Distribution]
+Type=single
+Size=
+Title=WMIQuery
+
+[Package|WMIQryTool|IconGroups]
+Group0=WMIQuery
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|WMIQryTool|WMIQuery]
+Icon1=WMIQry.exe
+Title1=WMIQuery
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|WMIQryTool|Package]
+PackageFolder=C:\Inetpub\ftptest\WMI\source_code\WMIQryTool\Package
+ProjectFolder=C:\Inetpub\ftptest\WMI\source_code\WMIQryTool
+ServerSideCab=
+File1=C:\Inetpub\ftptest\WMI\source_code\WMIQryTool\Package\setup.exe
+File2=C:\Inetpub\ftptest\WMI\source_code\WMIQryTool\Package\Setup.Lst
+File3=C:\Inetpub\ftptest\WMI\source_code\WMIQryTool\Package\WMIQry.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
